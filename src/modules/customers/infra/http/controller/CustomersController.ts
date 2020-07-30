@@ -15,6 +15,6 @@ export default class CustomersController {
       name,
     })
 
-    return response.json({ customer })
+    return response.json(customer)
   }
 }
